@@ -328,7 +328,7 @@ onMounted(async () => {
             {
                 for (int i = -MAX_RADIUS; i <= MAX_RADIUS; ++i)
                 {
-              vec2 pi = p0 + vec2(i, j);
+                    vec2 pi = p0 + vec2(i, j);
                     #if DOUBLE_HASH
                     vec2 hsh = hash22(pi);
                     #else
